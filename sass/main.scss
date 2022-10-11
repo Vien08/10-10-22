@@ -1,0 +1,18 @@
+$primary : purple;
+$warning : brown;
+$info : rgb(6, 126, 106);
+$modal-backdrop-bg : lightgreen;
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+
+$paolo-theme-colors:(
+
+    "cool" : pink,
+    "allen" : cyan
+    );
+
+$theme-colors : map-merge($paolo-theme-colors , $theme-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
